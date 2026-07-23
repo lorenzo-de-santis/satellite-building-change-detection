@@ -1,0 +1,16 @@
+{
+  "mean": [
+    0.397940993309021,
+    0.39242514967918396,
+    0.3350962996482849
+  ],
+  "std": [
+    0.18239237368106842,
+    0.17278499901294708,
+    0.1570003628730774
+  ],
+  "pos_weight_est": 20.791092284896845,
+  "patch_size": 256,
+  "root": "/mnt/beegfsstudents/home/3163450/levir_project/data/LEVIR-CD",
+  "mask_resize_mode": "notebook_lanczos"
+}

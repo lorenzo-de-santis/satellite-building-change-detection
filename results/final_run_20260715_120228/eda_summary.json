@@ -1,0 +1,38 @@
+{
+  "train": {
+    "split": "train",
+    "images": 445,
+    "patches": 7120,
+    "patch_size": 256,
+    "sizes": {
+      "1024x1024": 445
+    },
+    "changed_pixels": 21412971,
+    "total_pixels": 466616320,
+    "change_ratio": 0.045889888720565965
+  },
+  "val": {
+    "split": "val",
+    "images": 64,
+    "patches": 1024,
+    "patch_size": 256,
+    "sizes": {
+      "1024x1024": 64
+    },
+    "changed_pixels": 2816268,
+    "total_pixels": 67108864,
+    "change_ratio": 0.04196566343307495
+  },
+  "test": {
+    "split": "test",
+    "images": 128,
+    "patches": 2048,
+    "patch_size": 256,
+    "sizes": {
+      "1024x1024": 128
+    },
+    "changed_pixels": 6837404,
+    "total_pixels": 134217728,
+    "change_ratio": 0.05094262957572937
+  }
+}

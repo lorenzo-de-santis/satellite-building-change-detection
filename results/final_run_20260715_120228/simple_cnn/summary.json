@@ -1,0 +1,16 @@
+{
+  "model": "simple_cnn",
+  "source": "trained",
+  "best_epoch": 120,
+  "best_val_f1": 0.6943808816213286,
+  "epochs_ran": 139,
+  "checkpoint_best_f1": null,
+  "checkpoint_best_threshold": null,
+  "test_precision": 0.5895119824252218,
+  "test_recall": 0.8903083684977385,
+  "test_f1": 0.7093393674286914,
+  "test_iou": 0.5495940790368752,
+  "test_dice": 0.7093394153628496,
+  "test_accuracy": 0.9628307446837419,
+  "test_loss": 0.5403934005007613
+}

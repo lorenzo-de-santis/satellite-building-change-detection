@@ -1,0 +1,64 @@
+{
+  "data_root": "/mnt/beegfsstudents/home/3163450/levir_project/data/LEVIR-CD",
+  "models": [
+    "siamese_temporal_attention_unet"
+  ],
+  "device": "cuda",
+  "amp": false,
+  "seed": 42,
+  "patch_size": 256,
+  "num_workers": 8,
+  "model_configs": {
+    "siamese_temporal_attention_unet": {
+      "display_name": "Siamese Temporal Attention U-Net",
+      "epochs": 100,
+      "batch_size": 8,
+      "lr": 0.00035821278627296775,
+      "weight_decay": 5.057917832947534e-05,
+      "bce_weight": 0.3016167765493484,
+      "dice_weight": 0.6983832234506516,
+      "pos_weight_scale": 0.210351407738949,
+      "threshold": 0.5,
+      "patience": 12,
+      "min_delta": 0.0005,
+      "early_stop_metric": "val_f1",
+      "early_stop_mode": "max",
+      "grad_clip": 1.0,
+      "reference": {
+        "best_epoch": 91,
+        "test_f1": 0.9002092896698614,
+        "test_iou": 0.8185279000227957
+      }
+    }
+  },
+  "dataset_stats": {
+    "mean": [
+      0.397940993309021,
+      0.39242514967918396,
+      0.3350962996482849
+    ],
+    "std": [
+      0.18239237368106842,
+      0.17278499901294708,
+      0.1570003628730774
+    ],
+    "base_pos_weight": 20.791092284896845,
+    "computed_pos_weight": 20.79129276362444,
+    "loaded_stats": {
+      "mean": [
+        0.397940993309021,
+        0.39242514967918396,
+        0.3350962996482849
+      ],
+      "std": [
+        0.18239237368106842,
+        0.17278499901294708,
+        0.1570003628730774
+      ],
+      "pos_weight_est": 20.791092284896845,
+      "patch_size": 256,
+      "root": "/mnt/beegfsstudents/home/3163450/levir_project/data/LEVIR-CD",
+      "mask_resize_mode": "notebook_lanczos"
+    }
+  }
+}

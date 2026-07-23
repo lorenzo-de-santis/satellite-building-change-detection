@@ -1,0 +1,65 @@
+{
+  "simple_cnn": {
+    "display_name": "Simple CNN",
+    "epochs": 150,
+    "batch_size": 8,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "bce_weight": 0.5,
+    "dice_weight": 0.5,
+    "pos_weight_scale": 1.0,
+    "threshold": 0.5,
+    "patience": 35,
+    "min_delta": 0.00001,
+    "early_stop_metric": "val_loss",
+    "early_stop_mode": "min",
+    "grad_clip": 0.0,
+    "reference": {
+      "best_epoch": 97,
+      "test_f1": 0.7163211336900678,
+      "test_iou": 0.5580221250304398
+    }
+  },
+  "unet": {
+    "display_name": "U-Net",
+    "epochs": 80,
+    "batch_size": 8,
+    "lr": 0.00029259165815356206,
+    "weight_decay": 0.000045598044903929383,
+    "bce_weight": 0.3002672077598735,
+    "dice_weight": 0.6997327922401265,
+    "pos_weight_scale": 0.34672360788274703,
+    "threshold": 0.5,
+    "patience": 12,
+    "min_delta": 0.0005,
+    "early_stop_metric": "val_f1",
+    "early_stop_mode": "max",
+    "grad_clip": 1.0,
+    "reference": {
+      "best_epoch": 69,
+      "test_f1": 0.8894106147954723,
+      "test_iou": 0.8008456740767648
+    }
+  },
+  "siamese_temporal_attention_unet": {
+    "display_name": "Siamese Temporal Attention U-Net",
+    "epochs": 100,
+    "batch_size": 8,
+    "lr": 0.00035821278627296775,
+    "weight_decay": 0.00005057917832947534,
+    "bce_weight": 0.3016167765493484,
+    "dice_weight": 0.6983832234506516,
+    "pos_weight_scale": 0.210351407738949,
+    "threshold": 0.5,
+    "patience": 12,
+    "min_delta": 0.0005,
+    "early_stop_metric": "val_f1",
+    "early_stop_mode": "max",
+    "grad_clip": 1.0,
+    "reference": {
+      "best_epoch": 91,
+      "test_f1": 0.9002092896698614,
+      "test_iou": 0.8185279000227957
+    }
+  }
+}

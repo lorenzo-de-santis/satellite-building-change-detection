@@ -1,0 +1,47 @@
+{
+  "data_root": "/mnt/beegfsstudents/home/3163450/levir_project/data/LEVIR-CD",
+  "output_dir": "results/figures",
+  "run_name": "figures_20260715_210451",
+  "stats_json": "/mnt/beegfsstudents/home/3163450/levir_project/levir_final/submission/checkpoints/shared_dataset_stats.json",
+  "simple_cnn_checkpoint": "results/final_run_20260715_120228/simple_cnn/best.pt",
+  "unet_checkpoint": "results/final_run_20260715_120228/unet/best.pt",
+  "siamese_temporal_attention_checkpoint": "results/final_run_20260715_120228/siamese_temporal_attention_unet/best.pt",
+  "simple_cnn_history": "results/final_run_20260715_120228/simple_cnn/history.csv",
+  "unet_history": "results/final_run_20260715_120228/unet/history.csv",
+  "siamese_temporal_attention_history": "results/final_run_20260715_120228/siamese_temporal_attention_unet/history.csv",
+  "split": "test",
+  "sample_index": null,
+  "min_change_ratio": 0.002,
+  "patch_size": 256,
+  "batch_size": 8,
+  "num_workers": 2,
+  "threshold": 0.5,
+  "thresholds": "0.10,0.20,0.30,0.40,0.50,0.60,0.70,0.80,0.90",
+  "max_eval_patches": 0,
+  "seed": 42,
+  "disable_cuda": false,
+  "disable_mps": false,
+  "output_root": "/mnt/beegfsstudents/home/3163450/levir_project/levir_final/submission/results/figures/figures_20260715_210451",
+  "device": "cuda",
+  "stats": {
+    "mean": [
+      0.397940993309021,
+      0.39242514967918396,
+      0.3350962996482849
+    ],
+    "std": [
+      0.18239237368106842,
+      0.17278499901294708,
+      0.1570003628730774
+    ],
+    "pos_weight_est": 20.791092284896845,
+    "patch_size": 256,
+    "root": "/mnt/beegfsstudents/home/3163450/levir_project/data/LEVIR-CD",
+    "mask_resize_mode": "notebook_lanczos"
+  },
+  "checkpoints": {
+    "simple_cnn": "/mnt/beegfsstudents/home/3163450/levir_project/levir_final/submission/results/final_run_20260715_120228/simple_cnn/best.pt",
+    "unet": "/mnt/beegfsstudents/home/3163450/levir_project/levir_final/submission/results/final_run_20260715_120228/unet/best.pt",
+    "siamese_temporal_attention_unet": "/mnt/beegfsstudents/home/3163450/levir_project/levir_final/submission/results/final_run_20260715_120228/siamese_temporal_attention_unet/best.pt"
+  }
+}

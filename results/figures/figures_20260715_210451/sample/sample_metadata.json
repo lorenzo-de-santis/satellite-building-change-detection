@@ -1,0 +1,10 @@
+{
+  "source_image": "test_34.png",
+  "patch_top": 768,
+  "patch_left": 0,
+  "patch_size": 256,
+  "sample_name": "test_34_y768_x0",
+  "dataset_index": 908,
+  "change_ratio": 0.0552978515625,
+  "threshold": 0.5
+}

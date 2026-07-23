@@ -1,0 +1,5 @@
+{
+  "simple_cnn": 59745,
+  "unet": 7763905,
+  "siamese_temporal_attention_unet": 9403554
+}

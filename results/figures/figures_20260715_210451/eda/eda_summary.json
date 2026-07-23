@@ -1,0 +1,32 @@
+{
+  "train": {
+    "images": 445,
+    "patches": 7120,
+    "changed_pixels": 21412971,
+    "total_pixels": 466616320,
+    "change_ratio": 0.045889888720565965,
+    "empty_patch_fraction": 0.5551966292134831,
+    "patch_change_ratio_mean": 0.045889888720565965,
+    "patch_change_ratio_median": 0.0
+  },
+  "val": {
+    "images": 64,
+    "patches": 1024,
+    "changed_pixels": 2816268,
+    "total_pixels": 67108864,
+    "change_ratio": 0.04196566343307495,
+    "empty_patch_fraction": 0.57421875,
+    "patch_change_ratio_mean": 0.04196566343307495,
+    "patch_change_ratio_median": 0.0
+  },
+  "test": {
+    "images": 128,
+    "patches": 2048,
+    "changed_pixels": 6837404,
+    "total_pixels": 134217728,
+    "change_ratio": 0.05094262957572937,
+    "empty_patch_fraction": 0.54345703125,
+    "patch_change_ratio_mean": 0.05094262957572937,
+    "patch_change_ratio_median": 0.0
+  }
+}

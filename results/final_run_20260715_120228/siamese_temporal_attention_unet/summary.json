@@ -1,0 +1,16 @@
+{
+  "model": "siamese_temporal_attention_unet",
+  "source": "trained",
+  "best_epoch": 63,
+  "best_val_f1": 0.9057702599064903,
+  "epochs_ran": 69,
+  "checkpoint_best_f1": null,
+  "checkpoint_best_threshold": null,
+  "test_precision": 0.9000071358668928,
+  "test_recall": 0.90386599943486,
+  "test_f1": 0.901932390191215,
+  "test_iou": 0.821381555382499,
+  "test_dice": 0.90193244019099,
+  "test_accuracy": 0.9899869412183755,
+  "test_loss": 0.11893822637487972
+}

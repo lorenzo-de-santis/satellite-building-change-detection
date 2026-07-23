@@ -1,0 +1,16 @@
+{
+  "model": "unet",
+  "source": "trained",
+  "best_epoch": 39,
+  "best_val_f1": 0.8819957250835818,
+  "epochs_ran": 51,
+  "checkpoint_best_f1": null,
+  "checkpoint_best_threshold": null,
+  "test_precision": 0.8786999916053231,
+  "test_recall": 0.8894513180733377,
+  "test_f1": 0.8840429178702791,
+  "test_iou": 0.7921836974133695,
+  "test_dice": 0.8840429678684341,
+  "test_accuracy": 0.9881134107708924,
+  "test_loss": 0.16806717786292324
+}
